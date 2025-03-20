@@ -27,7 +27,7 @@ def main():
     except ValueError:
         print("Invalid input! please enter a numerical value.")
 
-if __name__ == "__mani__":
+if __name__ == "__main__":
     main()
 
 
