@@ -1,6 +1,6 @@
 class Employee:
     language = "Py" # This is a class attribute
-    salary = 800000
+    salary = 800000 # This is class attribte
 
 abhi = Employee()
 abhi.name = "Abhijeet Jathar" # This is a Object/instance  attribute
