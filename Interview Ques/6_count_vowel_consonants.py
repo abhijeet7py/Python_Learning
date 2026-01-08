@@ -1,13 +1,13 @@
-str = "Automation testing"
-str = str.lower()
+s = "Automation testing"
+s = str.lower()
 
 vowels = 0
 consonants = 0
 i = 0
 
 # 1. Using while loop
-while i < len(str):
-    ch = str[i]
+while i < len(s):
+    ch = s[i]
 
     if ch >= "a" and ch <= "z":
         if ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u":
@@ -25,7 +25,7 @@ print(f"Number of consonants: {consonants}")
 vowels = 0
 consonants = 0
 
-for ch in str:
+for ch in s:
     if ch >= "a" and ch <= "z":
         if ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u":
             vowels += 1
@@ -43,7 +43,7 @@ vowels_set = {"a","e","i","o","u"}
 vowels = 0
 consonants = 0
 
-for ch in str:
+for ch in s:
     if ch.isalpha():
         if ch in vowels_set:
             vowels += 1
