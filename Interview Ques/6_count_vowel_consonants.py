@@ -1,5 +1,5 @@
 s = "Automation testing"
-s = str.lower()
+s = s.lower()
 
 vowels = 0
 consonants = 0
@@ -52,4 +52,21 @@ for ch in s:
 
 print(f"Number of vowels: {vowels}")
 print(f"Number of consonants: {consonants}")
+
+
+# 4. Using dictionary freq:
+
+vowels = {}
+consonants = {}
+
+for ch in s:
+    if ch.isalpha():
+        if ch in "aeiou":
+            vowels[ch] = vowels.get(ch,0) + 1
+        else:
+            consonants[ch] = consonants.get(ch,0)+ 1
+
+print(f"Number of vowels: {vowels}")
+print(f"Number of consonants: {consonants}")
+
 
