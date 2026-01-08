@@ -14,7 +14,9 @@ print(rev)
 str1 = "Automation"
 rev = ""
 for char in str1:
-    rev = char + rev
+    rev = char + rev # itr 1:  = A +
+                     # itr 2: A = u + A
+                     # itr 3: uA = t + uA and so on
 
 print(rev)
 
@@ -22,10 +24,10 @@ print(rev)
 str1 = "Automation"
 rev = ""
 
-i = len(str1) - 1
+i = len(str1) - 1  # defined i since indexing starts from 0
 
-while i >= 0:
-    rev = rev + str1[i]
-    i -= 1
+while i >= 0: # continue loop till i is valid
+    rev = rev + str1[i] # itr1:  =  + n
+    i -= 1              # itr2: n= n + o
 
 print(rev)
