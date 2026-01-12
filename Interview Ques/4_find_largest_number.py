@@ -1,4 +1,4 @@
-nums = [10, 252, 3, 99, 54]
+nums = [10, 252, 3, 99, 54, 253]
 
 # 1. using a simple loop
 largest = nums[0]  #assumeing first element is largest
