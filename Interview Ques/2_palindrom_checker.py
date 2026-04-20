@@ -1,12 +1,12 @@
-str = input("Enter a string: ")
+str1 = input("Enter a string: ")
 
 # 1. using slicing method
 
-if str == str[::-1]: # Reverse using slicing and compare with original
-    print(f"{str} is a palindrome.")
+if str1 == str1[::-1]: # Reverse using slicing and compare with original
+    print(f"{str1} is a palindrome.")
 
 else:
-    print(f"{str} is not a palindrome.")
+    print(f"{str1} is not a palindrome.")
 
 
 
