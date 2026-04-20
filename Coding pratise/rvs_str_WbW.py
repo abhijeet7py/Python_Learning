@@ -9,6 +9,9 @@ rev = s[::-1] # Using slice reversing the words
 rev = " ".join(rev)
 print(rev)
 
+
+
+
 revs = ""
 # Reverse with split and for loop
 for ch in range(len(s)-1 , -1, -1): #

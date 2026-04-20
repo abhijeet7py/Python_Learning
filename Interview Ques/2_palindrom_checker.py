@@ -8,6 +8,8 @@ if str == str[::-1]: # Reverse using slicing and compare with original
 else:
     print(f"{str} is not a palindrome.")
 
+
+
 # 2. Using 2 pointer method (Without a built-in method)
 
 s = input("Enter a string: ").lower().split() # split the string into list of words
